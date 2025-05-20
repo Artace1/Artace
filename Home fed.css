@@ -29,6 +29,9 @@ body{
     float:left;
 
 }
+.search-icon{
+    height: 20px;
+    width: 20px;}
 
 .searchbox{
     height: 50px;
