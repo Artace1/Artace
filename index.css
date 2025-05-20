@@ -1,0 +1,263 @@
+body{
+    color: white;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+/*Header*/
+
+.header-box{
+    Width: 200vh;
+    height:100px;
+    position: fixed; /*Keeps the header visible even when scrolling*/
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    margin-top:-20px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(grey,white);
+    z-index: 1;
+}
+
+
+.logo{
+    width:7%;
+    height: auto;
+    float:left;
+
+}
+
+.nav{
+    display: flex;
+    gap:100px;
+    margin-left: 40%;
+}
+
+.sgnup-nav{
+    gap:100px;
+}
+
+.signup{
+    background-color: rgb(252, 255, 84);
+    font-size: 20px;
+    margin-top:25px;
+    margin-left: 250px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 50px;
+    width: 120px;
+}
+
+.login{
+    background-color: #8eff80;
+    font-size: 20px;
+    margin-top:25px;
+    margin-left: -400px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 50px;
+    width: 120px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin:20px auto;
+}
+
+.overall-container{
+    width: 200vh;
+    height:400vh;
+    background: black;
+    justify-content: center;
+    gap:20px;
+    margin:0px auto; margin-top: -20px;}
+
+
+/*Landing Page*/
+
+.header{
+    font-size:32px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 200px;
+    margin-left: 20px;
+    font-family: Arial;
+    float:left;
+}
+
+.subheader{
+    font-size: 25px;
+    font-family: Tahoma;
+    margin-left: 20px;
+}
+
+.paragraph{
+    text-align: justify;
+    max-width: 80%;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+    line-height: 30px;
+    margin-left: 20px;  
+}
+
+.box-lp{
+    width: 200%;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 25px;
+    margin-top: 250px;
+    border-radius: 30px;
+    display: flow-root;
+}
+
+.align-lp{
+    display: flex;
+}
+
+/*About us Box*/
+
+.h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.p1{
+    max-width: 80%;
+    margin-left: 50px;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background-color:rgb(142, 255, 127);
+    margin-top: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.align-b{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.story{
+    width: 1560px;
+    height: 500px;
+    background-color:rgb(142, 255, 127);
+    margin-top: 200px;
+    margin-left: 140px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.p2{
+    max-width: 80%;
+    margin-left: 150px;
+}
+
+/*Blog*/
+
+.subheader-blog{
+    font-size: 25px;
+    font-family: Tahoma;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box-blog{
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(#8eff7f,white);
+    margin-top: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.box-blgvid{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+   z-index: 2;
+}
+
+.h3{
+    margin-left: 50px;
+}
+
+.p3{
+    max-width: 80%;
+    margin-left: 50px;
+}
+
+.a1{
+    color: white;
+    margin-left: 50px;
+}
+
+.align-blg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.end-msg{
+    text-align: center;
+    font-family: 'Tahoma';
+    font-weight: lighter;
+    margin-top: 250px;
+}
